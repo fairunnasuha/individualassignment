@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">BMICalculator</string>
+    <string name="github">FOLLOW <a href="https://github.com/fairunnasuha/individualassignment.git">GITHUB</a></string>
+    <string name="youtube">SUBSCRIBE <a href="https://www.youtube.com/channel/UCFlQUVCK_Ni03Y2HClDHF6Q">YOUTUBE</a></string>
+    <string name="email">CONTACT <a href="mailto:fairunnasuhan1@gmail.com">EMAIL</a> </string>
 </resources>

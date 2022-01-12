@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.io.BufferedReader;
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     TextView resulttext, category, healthrisk,wu;
     String calculation, BMIresult, healthText, text,V1,V2;
     private Button button1;
-    private Button button2;
+    private ImageButton button2;
     boolean cancel = false;
     float valueH, valueW;
     private static final String FILE1 = "heightData.txt";

@@ -9,12 +9,12 @@
     tools:context=".MainActivity">
 
     <TextView
-    android:id="@+id/textView"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
 
-    android:text="BMI CALCULATOR"
-    android:textSize="24sp" />
+        android:text="BMI CALCULATOR"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -36,9 +36,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="138dp"
-        android:layout_marginTop="138dp"
-        android:text="HEIGHT (m) " />
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="139dp"
+        android:text="HEIGHT" />
 
     <EditText
         android:id="@+id/weightedit"
@@ -78,7 +78,7 @@
         android:layout_marginEnd="117dp"
         android:onClick="calculateBMI"
         android:text="CALCULATE"
-        app:backgroundTint="@android:color/holo_orange_light" />
+        app:backgroundTint="#3F9E1D" />
 
     <TextView
         android:id="@+id/textView4"
@@ -89,7 +89,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
         android:layout_marginStart="136dp"
-        android:layout_marginBottom="177dp"
+        android:layout_marginBottom="171dp"
+        android:gravity="center"
         android:text="RESULT BMI" />
 
     <TextView
@@ -100,8 +101,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="154dp"
-        android:layout_marginBottom="101dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginBottom="151dp"
+        android:gravity="center"
         android:text="NONE" />
 
     <TextView
@@ -114,6 +116,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginEnd="154dp"
         android:layout_marginBottom="62dp"
+        android:gravity="center"
         android:text="Category" />
 
     <TextView
@@ -124,8 +127,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="156dp"
-        android:layout_marginBottom="153dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginBottom="91dp"
+        android:gravity="center|center_horizontal"
         android:text="none" />
 
     <TextView
@@ -136,8 +140,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="363dp"
-        android:layout_marginEnd="153dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="152dp"
+        android:gravity="center"
         android:text="Health Risk" />
 
     <TextView
@@ -148,8 +153,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="455dp"
-        android:layout_marginEnd="172dp"
+        android:layout_marginTop="459dp"
+        android:layout_marginEnd="169dp"
+        android:gravity="center"
         android:text="none" />
 
     <ImageButton
@@ -158,8 +164,8 @@
         android:layout_height="41dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="3dp"
         android:layout_marginRight="16dp"
         android:adjustViewBounds="false"
         android:background="@drawable/about"
@@ -175,8 +181,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="71dp"
-        android:layout_marginBottom="25dp" />
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="221dp" />
 
     <Button
         android:id="@+id/cmbutton"
@@ -189,7 +195,7 @@
         android:layout_marginBottom="307dp"
         android:onClick="cm"
         android:text="cm"
-        app:backgroundTint="#E66792" />
+        app:backgroundTint="#3F9E1D" />
 
     <Button
         android:id="@+id/mbutton"
@@ -202,7 +208,7 @@
         android:layout_marginBottom="304dp"
         android:onClick="m"
         android:text="m"
-        app:backgroundTint="#E1618D" />
+        app:backgroundTint="#3F9E1D" />
 
 
 
